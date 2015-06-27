@@ -2,6 +2,7 @@
 using UnityEngine.UI;
 using System.Threading;
 using System.Collections;
+using UnityEngine.EventSystems;
 
 public class Controllers : MonoBehaviour
 {
@@ -26,7 +27,7 @@ public class Controllers : MonoBehaviour
         }
     }
 
-    public void OnLeftTouch ()
+    public void OnLeftTouch ( )
     {
         SphereMove.moveHorizontal = -1.0f;
     }

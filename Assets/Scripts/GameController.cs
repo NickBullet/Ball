@@ -25,8 +25,6 @@ public class GameController : MonoBehaviour
             source.GetComponent<AudioSource> ().mute = true;
         }
         _player = GameObject.FindGameObjectWithTag ( "Player" );
-        isRightButtonActive = false;
-        isLeftButtonActive = false;
         StartCoroutine ( SpawnWaves () );
 	}
 	
