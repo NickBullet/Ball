@@ -30,15 +30,18 @@ public class Controllers : MonoBehaviour
     public void OnLeftTouch ( )
     {
         SphereMove.moveHorizontal = -1.0f;
+        img.rectTransform.localScale = new Vector3 ( 1.1f, 1.1f );
     }
 
     public void OnRightTouch ()
     {
         SphereMove.moveHorizontal = 1.0f;
+        img.rectTransform.localScale = new Vector3 ( 1.1f, 1.1f );
     }
 
     public void OnStop ()
     {
         SphereMove.moveHorizontal = 0.0f;
+        img.rectTransform.localScale = new Vector3 ( 1.0f, 1.0f );
     }
 }
