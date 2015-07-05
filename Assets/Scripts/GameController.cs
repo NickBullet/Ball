@@ -56,14 +56,14 @@ public class GameController : MonoBehaviour
                     _player.transform.position = _playerSpawn;
                     ident = 1;
                 }
-                Quaternion spawnRotation = Quaternion.identity;
+                //Quaternion spawnRotation = Quaternion.identity;
                 
-                Instantiate ( plane, spawnPosition, spawnRotation );
+                Instantiate ( plane, spawnPosition, plane.transform.rotation );
                 
                 if (Random.Range(0,5)/2 == 0 && i > 0)
                 {
                     _coinSpawn = spawnPosition + new Vector3 ( 0.0f, 0.8f, 0.0f );
-                    Instantiate ( coin, _coinSpawn, spawnRotation );
+                    Instantiate ( coin, _coinSpawn, coin.transform.rotation );
                 }
                 yield return new WaitForSeconds ( spawnWait );
             }

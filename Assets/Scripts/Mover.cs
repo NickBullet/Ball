@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 public class Mover : MonoBehaviour {
 
@@ -12,8 +11,6 @@ public class Mover : MonoBehaviour {
 	
 	void Update () 
     {
-
         transform.position += Vector3.up * Time.deltaTime * speed;
-
 	}
 }
