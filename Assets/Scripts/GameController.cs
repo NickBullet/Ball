@@ -15,6 +15,7 @@ public class GameController : MonoBehaviour
 
     public static bool isRightButtonActive;
     public static bool isLeftButtonActive;
+    public static int i;
     //public float waveWait;
 
 	void Start () 
@@ -47,7 +48,7 @@ public class GameController : MonoBehaviour
         short ident = 0;
         while ( true )
         {
-            for ( int i = 0; i < hazardCount; i++ )
+            for ( i = 0; i < hazardCount; i++ )
             {
                 Vector3 spawnPosition = new Vector3 ( Random.Range ( -spawnValues.x, spawnValues.x ), spawnValues.y, spawnValues.z );
                 if ( i == 0 && ident == 0 )

@@ -7,8 +7,15 @@ public class MenuButtonScript : MonoBehaviour
     {
         if ( SoundButton.sound == false )
         {
-            var source = GameObject.FindGameObjectWithTag ( "Sound" );
-            source.GetComponent<AudioSource> ().Play ();
+            try
+            {
+                var source = GameObject.FindGameObjectWithTag ( "Sound" );
+                source.GetComponent<AudioSource> ().Play ();
+            }
+            catch
+            {
+                Debug.Log ( "There are no sound object" );
+            }
         }
     }
 
