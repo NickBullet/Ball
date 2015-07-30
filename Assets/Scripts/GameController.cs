@@ -61,7 +61,7 @@ public class GameController : MonoBehaviour
                 
                 Instantiate ( plane, spawnPosition, plane.transform.rotation );
                 
-                if (Random.Range(0,5)/2 == 0 && i > 0)
+                if (Random.Range(0,5)/2 == .0 && i > 0)
                 {
                     _coinSpawn = spawnPosition + new Vector3 ( 0.0f, 0.8f, 0.0f );
                     Instantiate ( coin, _coinSpawn, coin.transform.rotation );

@@ -91,7 +91,7 @@ MeshCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Convex: 1
-  m_Mesh: {fileID: 4300000, guid: 2b1bbb3299a3b3a4a8667bfe90daa3f9, type: 3}
+  m_Mesh: {fileID: 0}
 --- !u!114 &11477054
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -144,6 +144,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_LocalRotation.w
       value: .707106709
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

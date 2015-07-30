@@ -9,7 +9,7 @@ public class Mover : MonoBehaviour {
 
 	}
 	
-	void Update () 
+	void FixedUpdate () 
     {
         transform.position += Vector3.up * Time.deltaTime * speed;
 	}
