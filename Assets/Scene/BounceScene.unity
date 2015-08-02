@@ -237,8 +237,8 @@ RectTransform:
   m_RootOrder: 12
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -110, y: 90}
-  m_SizeDelta: {x: 125, y: 125}
+  m_AnchoredPosition: {x: -128, y: 200}
+  m_SizeDelta: {x: 250, y: 450}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &221272138
 MonoBehaviour:
@@ -412,7 +412,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_Sprite: {fileID: 21300000, guid: 4f731d905c90d9d459aa87713220b0e6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
@@ -597,8 +597,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 820145448}
   m_LocalRotation: {x: 1.15202326e-07, y: .707106709, z: .707106829, w: -1.15202312e-07}
-  m_LocalPosition: {x: 20.8604851, y: 2.58325052, z: 1.44961143}
-  m_LocalScale: {x: .698416173, y: .698416352, z: .698416352}
+  m_LocalPosition: {x: 19.6399994, y: 2.44000006, z: 1.42760003}
+  m_LocalScale: {x: .578455746, y: .578456044, z: .578456044}
   m_Children:
   - {fileID: 1771700421}
   - {fileID: 783820574}
@@ -868,7 +868,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_Sprite: {fileID: 21300000, guid: 118623c3469a2d441a48b47c9ac9d10f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
@@ -897,8 +897,8 @@ RectTransform:
   m_RootOrder: 11
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 110, y: 90}
-  m_SizeDelta: {x: 125, y: 125}
+  m_AnchoredPosition: {x: 128, y: 203.100006}
+  m_SizeDelta: {x: 250, y: 450}
   m_Pivot: {x: .5, y: .5}
 --- !u!1 &944703528
 GameObject:
@@ -934,7 +934,7 @@ RectTransform:
   m_RootOrder: 5
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: 4, y: -26}
+  m_AnchoredPosition: {x: 0, y: -26}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &944703530
@@ -1080,7 +1080,7 @@ Camera:
   near clip plane: .300000012
   far clip plane: 1000
   field of view: 60
-  orthographic: 0
+  orthographic: 1
   orthographic size: 5
   m_Depth: 0
   m_CullingMask:
@@ -1278,7 +1278,7 @@ RectTransform:
   m_RootOrder: 7
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: 4, y: -162}
+  m_AnchoredPosition: {x: 0, y: -162}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &1009717819
@@ -1604,7 +1604,7 @@ RectTransform:
   m_RootOrder: 6
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: 4, y: -94}
+  m_AnchoredPosition: {x: 0, y: -94}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &1324422196
@@ -2214,7 +2214,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   plane: {fileID: 100000, guid: 254821f110f9ddd4d9da55d2609fc938, type: 2}
   coin: {fileID: 193914, guid: e6842b4be6f7c294b9b8abfaf7e90fd5, type: 2}
-  spawnValues: {x: 5, y: -4.5, z: 5.0999999}
+  spawnValues: {x: 5, y: -5, z: 5.0999999}
   hazardCount: 10
   spawnWait: 1
   startWait: 0

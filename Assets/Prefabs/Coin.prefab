@@ -8,12 +8,12 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 497126}
-  - 33: {fileID: 3305642}
+  - 33: {fileID: 3328950}
   - 23: {fileID: 2374490}
+  - 64: {fileID: 6411190}
+  - 54: {fileID: 5424224}
   - 114: {fileID: 11479870}
   - 114: {fileID: 11477054}
-  - 54: {fileID: 5424224}
-  - 64: {fileID: 6428728}
   - 114: {fileID: 11493934}
   m_Layer: 0
   m_Name: Coin
@@ -28,8 +28,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 193914}
-  m_LocalRotation: {x: 0, y: 0, z: -.707106829, w: .707106709}
-  m_LocalPosition: {x: 2.5733614, y: 3.66200471, z: -9.18945026}
+  m_LocalRotation: {x: .70710659, y: -.707106948, z: -1.1520229e-07, w: 1.15202347e-07}
+  m_LocalPosition: {x: 13.4060965, y: .582741141, z: 0}
   m_LocalScale: {x: .266900003, y: .266900003, z: .266900003}
   m_Children: []
   m_Father: {fileID: 0}
@@ -44,7 +44,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_Materials:
-  - {fileID: 2100000, guid: 69d42513d4e281146a58b6b7dd7b3ac8, type: 2}
+  - {fileID: 2100000, guid: 6fb23dd8d32af1c459885673863a61b5, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 1
@@ -58,13 +58,13 @@ MeshRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
---- !u!33 &3305642
+--- !u!33 &3328950
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 193914}
-  m_Mesh: {fileID: 4300000, guid: 2b1bbb3299a3b3a4a8667bfe90daa3f9, type: 3}
+  m_Mesh: {fileID: 4300000, guid: cc0c664569068c44ba27058d45c3d785, type: 3}
 --- !u!54 &5424224
 Rigidbody:
   m_ObjectHideFlags: 1
@@ -80,7 +80,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!64 &6428728
+--- !u!64 &6411190
 MeshCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -91,7 +91,7 @@ MeshCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Convex: 1
-  m_Mesh: {fileID: 0}
+  m_Mesh: {fileID: 4300000, guid: cc0c664569068c44ba27058d45c3d785, type: 3}
 --- !u!114 &11477054
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -148,6 +148,14 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_Mesh
       value: 
+      objectReference: {fileID: 4300000, guid: 74cde21181490f948b8aa3f7bcd0fd88, type: 3}
+    - target: {fileID: 0}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
